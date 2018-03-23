@@ -7,7 +7,7 @@ using Android.Support.V7.App;
 
 namespace SampleApp {
 	[Activity(Label = "SampleApp", MainLauncher = true)]
-	public class MainActivity : ActionBarActivity {
+    public class MainActivity : AppCompatActivity {
 		// Include the 'InjectView' attribute for any Android
 		// view fields you would like to resolve with Cheeseknife.
 		[InjectView(Resource.Id.myTextView)] TextView textView;
